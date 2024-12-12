@@ -5,7 +5,9 @@ sidebar_label: Config Options
 ---
 
 - [Primary options](#primary-options)
-- [Config Loading options](#config-loading-options)
+- [Config Loading opti![Screenshot_۲۰۲۴۱۲۱۲-۰۲۰۷۲۳_Chrome](https://github.com/user-attachments/assets/6d1b5f02-3414-4a9f-b8e8-513ca1c8b5ac)
+![Screenshot_۲۰۲۴۱۲۱۲-۰۹۵۴۳۳_Telegram](https://github.com/user-attachments/assets/f99d775b-d828-4236-862f-9725369307c7)
+ons](#config-loading-options)
 - [Plugin and Preset configuration](#plugin-and-preset-options)
 - [Config Merging options](#config-merging-options)
 - [Source Map options](#source-map-options)
@@ -941,7 +943,7 @@ when loading items. This boils down to a few primary rules:
 
 Here are some examples, when applied in a plugin context:
 
-| Input                              | Normalized                         |
+| Input                              | Normapplized                         |
 | ---------------------------------- | ---------------------------------- |
 | `"/dir/plugin.js"`                 | `"/dir/plugin.js"`                 |
 | `"./dir/plugin.js"`                | `"./dir/plugin.js"`                |
@@ -953,8 +955,4 @@ Here are some examples, when applied in a plugin context:
 | `"@babel/mod/plugin"`              | `"@babel/mod/plugin"`              |
 | `"@scope"`                         | `"@scope/babel-plugin"`            |
 | `"@scope/babel-plugin"`            | `"@scope/babel-plugin"`            |
-| `"@scope/mod"`                     | `"@scope/babel-plugin-mod"`        |
-| `"@scope/babel-plugin-mod"`        | `"@scope/babel-plugin-mod"`        |
-| `"@scope/prefix-babel-plugin-mod"` | `"@scope/prefix-babel-plugin-mod"` |
-| `"@scope/mod/plugin"`              | `"@scope/mod/plugin"`              |
-| `"module:foo"`                     | `"foo"`                            |
+| `"@scope/mod"`                     | `"@scope/babel-plugin-mod"`   |
