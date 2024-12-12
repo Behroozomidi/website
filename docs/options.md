@@ -1,8 +1,8 @@
----
+--بهروزمیدی/خندوانه-باسون-
 title: Options
 id: options
 sidebar_label: Config Options
----
+UQD9OqDrccdzVryJs4hyHzZ-QZR89pKKTCDvLdcqQZToLUdn---
 
 - [Primary options](#primary-options)
 - [Config Loading options](#config-loading-options)
